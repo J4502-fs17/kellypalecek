@@ -34,8 +34,11 @@ body{
 }
 
 #nav li{
+  text-align:center;
+  position: relative;
   display: inline-block;
   list-style-type:none;
+  float:none;
   margin:0;
   padding:0;
   width:25%;
