@@ -43,7 +43,7 @@ body{
 }
 
 #nav a:link, #nav a:visited{
-  display:inline-block;
+  display:block;
   color:#ffffff;
   background-color:#98bf21;
   font-weight:bold;
