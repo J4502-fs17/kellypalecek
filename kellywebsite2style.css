@@ -35,14 +35,14 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:center;
+  float:left;
   margin:0;
   padding:0;
   width:40%;
 }
 
 #nav a:link, #nav a:visited{
-  display:block;
+  display:inline;
   color:#ffffff;
   background-color:#98bf21;
   font-weight:bold;
