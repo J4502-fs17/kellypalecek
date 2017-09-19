@@ -30,7 +30,7 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:none;
+  float:left;
   display: block;
   margin:0 auto;
   padding:0;
@@ -45,7 +45,7 @@ body{
   text-align:center;
   text-decoration:none;
   padding:10px;
-  width: 150px%; /*fixed width*/
+  width: 150px; /*fixed width*/
   font-family:Helvetica, Arial, sans-serif;
 }
 
