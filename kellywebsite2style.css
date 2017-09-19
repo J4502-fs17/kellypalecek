@@ -29,11 +29,11 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:left;
-  display: inline;
+  float:none;
+  display: block;
   margin:0 auto;
   padding:0;
-  width:50%;
+  width:750px;
 }
 
 #nav a:link, #nav a:visited{
@@ -44,7 +44,7 @@ body{
   text-align:center;
   text-decoration:none;
   padding:10px;
-  width: 100%; /*fixed width*/
+  width: 150px%; /*fixed width*/
   font-family:Helvetica, Arial, sans-serif;
 }
 

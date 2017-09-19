@@ -13,8 +13,6 @@
 
 <body>
 
-  <div id="container">
-
     <div id="header">
 
   <h1>Kelly Palecek</h1>
@@ -32,10 +30,10 @@
     </ul>
 <br>
 <br>
+<br>
 <a href="mailto:knpt33@mail.missouri.edu">
 <img src="Kellyheadshotsmall1.jpg" alt="Kelly's Headshot" />
 </a>
 
 </body>
-</div> <!--container div-->
 </html>
