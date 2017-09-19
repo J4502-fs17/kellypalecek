@@ -34,6 +34,7 @@ body{
 }
 
 #nav li{
+  display: inline-block;
   list-style-type:none;
   float:left;
   margin:0;
@@ -42,7 +43,7 @@ body{
 }
 
 #nav a:link, #nav a:visited{
-  display:inline-block;
+  display:block;
   color:#ffffff;
   background-color:#98bf21;
   font-weight:bold;
@@ -61,6 +62,6 @@ body{
 }
 
 img{
-  display: inline-block;
+
   border-style:none;
 }
