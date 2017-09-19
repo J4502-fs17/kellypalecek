@@ -35,7 +35,8 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:inherit;
+  float:left;
+  text-align: center;
   margin:0;
   padding:0;
   width:25%;
