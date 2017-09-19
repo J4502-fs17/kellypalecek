@@ -30,14 +30,14 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:none;
+  float:left;
   margin:0 auto;
   padding:0;
-  width:0;
+  width:40px;
 }
 
 #nav a:link, #nav a:visited{
-  display:block;
+  display:inline-block;
   color:#231B23;
   background-color:#D0ADA7;
   font-weight:bold;
