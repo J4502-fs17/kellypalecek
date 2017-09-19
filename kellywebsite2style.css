@@ -36,7 +36,7 @@ body{
 #nav li{
   list-style-type:none;
   float:left;
-  margin:0;
+  margin:auto;
   padding:0;
   width:25%;
 }
@@ -61,5 +61,6 @@ body{
 }
 
 img{
+  margin-left: auto;
   border-style:none;
 }
