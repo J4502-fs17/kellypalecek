@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+  <link rel="stylesheet" type="text/css" href"kellywebsite2style.css" />
 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
   <title>Kelly's Website</title>
 </head>
@@ -14,10 +15,9 @@
     <p> How do all the oceans say hello to each other? They wave!</p>
 
     <ul>
-      <li><a href="https://github.com/J4502-fS17.com/">Class Github</a></li>
+      <li><a href="index.html">Old site </a></li>
       <li><a href="secondpagekellypalecek.html">Second Page</a></li>
       <li><a href="https://www.columbiamissourian.com/users/profile/knpt33/">Missourian Profile</a></li>
-      <li><a href="index.html"> Old Website</a></li>
     </ul>
 
 <a href="mailto:knpt33@mail.missouri.edu">
