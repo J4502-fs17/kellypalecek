@@ -31,20 +31,19 @@ body{
 #nav li{
   list-style-type:none;
   float:left;
-  margin:0 auto;
-  padding:10px;
-  width:40px;
+  margin:0;
+  padding:0;
+  width:25%;
 }
 
 #nav a:link, #nav a:visited{
-  display:inline-block;
+  display:block;
   color:#231B23;
   background-color:#D0ADA7;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
-  padding:10px;
-  width: 100%; /*fixed width*/
+  padding:4px;
   font-family:Helvetica, Arial, sans-serif;
 }
 
