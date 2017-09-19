@@ -39,13 +39,13 @@ body{
 
 #nav a:link, #nav a:visited{
   display:block;
-  color:#B58DB6;
+  color:#231B23;
   background-color:#D0ADA7;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
   padding:10px;
-  width: 150px; /*fixed width*/
+  width: 150px%; /*fixed width*/
   font-family:Helvetica, Arial, sans-serif;
 }
 
