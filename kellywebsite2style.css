@@ -19,12 +19,13 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
   font-size:2.5rem;
+  color:#5D2E46;
 }
 h4{
   font-size:1.5rem;
 }
 body{
-  background-color:#ebe3c3;
+  background-color:#E8D6CB;
 }
 
 #nav li{
@@ -38,8 +39,8 @@ body{
 
 #nav a:link, #nav a:visited{
   display:block;
-  color:#ffffff;
-  background-color:#98bf21;
+  color:#black;
+  background-color:#D0ADA7;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
@@ -49,7 +50,7 @@ body{
 }
 
 #nav a:hover, #nav a:active{
-  background-color:#7a991a;
+  background-color:#AD6A6C;
 }
 
 #nav{
