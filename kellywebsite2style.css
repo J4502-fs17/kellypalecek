@@ -27,19 +27,13 @@ body{
   background-color:#ebe3c3;
 }
 
-#container{
-  width:95%;
-  background-color:#ffffff;
-  margin:0 auto;
-}
-
 #nav li{
   list-style-type:none;
   float:left;
   display: inline;
-  margin:0;
+  margin:0 auto;
   padding:0;
-  width:40%;
+  width:25%;
 }
 
 #nav a:link, #nav a:visited{
@@ -50,6 +44,7 @@ body{
   text-align:center;
   text-decoration:none;
   padding:10px;
+  width: 100%; /*fixed width*/
   font-family:Helvetica, Arial, sans-serif;
 }
 
@@ -62,6 +57,5 @@ body{
 }
 
 img{
-
   border-style:none;
 }
