@@ -1,0 +1,63 @@
+html{
+  font-size:100%;
+}
+p{
+  color:black;
+  font-family:"Fanwood Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  line-height:1.5rem;
+}
+
+.italic{
+  font-style:italic;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:"Quattrocento", "Times New Roman", serif;
+}
+
+h1{
+  font-size:2.5rem;
+}
+h4{
+  font-size:1.5rem;
+}
+body{
+  background-color:#ebe3c3;
+}
+
+#container{
+  width:95%;
+  background-color:#ffffff;
+  margin:0 auto;
+}
+
+#nav li{
+  list-style-type:none;
+  float:left;
+  margin:0;
+  padding:0;
+  width:25%;
+}
+
+#nav a:link, #nav a:visited{
+  display:block;
+  color:#ffffff;
+  background-color:#98bf21;
+  font-weight:bold;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active{
+  background-color:#7a991a;
+}
+
+#nav{
+  padding:0;
+}
+
+img{
+  border-style:none;
+}
