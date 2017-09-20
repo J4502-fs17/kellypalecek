@@ -37,13 +37,12 @@ body{
 
 #nav li{
   list-style-type:none;
-  float:left;
   margin:0;
   padding:0;
-  width:25%;
+  width:100%;
 }
 
-#nav a:link, #nav a:visited{
+#nav a:link{
   display:block;
   color:#231B23;
   background-color:#D0ADA7;
@@ -52,6 +51,10 @@ body{
   text-decoration:none;
   padding:4px;
   font-family:Helvetica, Arial, sans-serif;
+}
+
+#nav a:visited {
+  color:#E8D6CB;
 }
 
 #nav a:hover, #nav a:active{
