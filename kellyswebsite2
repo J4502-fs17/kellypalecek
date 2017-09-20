@@ -4,9 +4,10 @@
 <head>
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-<link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="kellywebsite2style.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="kellywebsite2style.css" />
 
   <title>Kelly's Website</title>
 </head>
@@ -28,9 +29,9 @@
       <li><a href="secondpagekellypalecek.html">Second Page</a></li>
       <li><a href="https://www.columbiamissourian.com/users/profile/knpt33/">Missourian Profile</a></li>
     </ul>
-<br>
-<br>
-<br>
+<br></br>
+<br></br>
+<br></br>
 <a href="mailto:knpt33@mail.missouri.edu">
 <img src="Kellyheadshotsmall1.jpg" alt="Kelly's Headshot" />
 </a>
