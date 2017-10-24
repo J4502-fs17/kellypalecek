@@ -74,3 +74,22 @@ img {
     margin-left: auto;
     margin-right: auto
   }
+
+#nav {
+  	display: flex;
+  	flex-direction: column;
+  }
+
+  @media (min-width: 600px) {
+  	#nav {
+  		flex-direction: row;
+  		justify-content: center;
+  	}
+  }
+
+  @media (min-width: 800px) {
+
+  	.item-1 {
+  		margin-right: auto;
+  	}
+  }
