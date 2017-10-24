@@ -43,7 +43,6 @@ body{
 }
 
 #nav a:link{
-  display:block;
   color:#231B23;
   background-color:#D0ADA7;
   font-weight:bold;
@@ -86,19 +85,4 @@ img {
   		justify-content: center;
   	}
   }
-
-}
-#nav {
-	padding: 10px;
-	background: #fff;
-  border-radius: 5px;
-	margin: 45px auto;
-  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-}
-#item {
-	color: #000;
-	padding: 15px;
-	margin: 5px;
-	background: #f1b82d;
-	border-radius: 3px;
-}
+  
