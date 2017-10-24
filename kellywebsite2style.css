@@ -89,7 +89,7 @@ img {
 
   @media (min-width: 800px) {
 
-  	.item-1 {
+  	#item-1 {
   		margin-right: auto;
   	}
   }
