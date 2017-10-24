@@ -43,6 +43,7 @@ body{
 }
 
 #nav a:link{
+  display: block;
   color:#231B23;
   background-color:#D0ADA7;
   font-weight:bold;
@@ -85,4 +86,3 @@ img {
   		justify-content: center;
   	}
   }
-  
