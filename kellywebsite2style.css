@@ -101,5 +101,10 @@ img{
   .text{
     justify-content: center;
     flex-grow: 10;
+
+  }
+  .image{
+    justify-content: center;
+    flex-grow: 20;
   }
   }
