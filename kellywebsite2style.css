@@ -96,11 +96,11 @@ img{
     }
     .container {
       flex-direction: row-reverse;
-      justify-content: space-between;
+      justify-content: space-around;
 }
   .text{
     justify-content: center;
-    flex-grow: 10;
+    flex-grow: 20;
 
   }
   .image{
