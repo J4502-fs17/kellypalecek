@@ -82,6 +82,11 @@ img{
   flex-direction: column;
 }
 
+.image{
+  display:flex;
+  justify-content: center;
+}
+
 #nav {
   	display: flex;
   	flex-direction: column;
@@ -94,6 +99,7 @@ img{
     }
     .container {
       flex-direction: row-reverse;
+      justify-content: space-between;
 }
   .text{
     justify-content: center;
