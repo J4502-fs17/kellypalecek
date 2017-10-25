@@ -83,10 +83,6 @@ img{
   flex-direction: column;
 }
 
-.image{
-  display:flex;
-  justify-content: center;
-}
 
 #nav {
   	display: flex;
