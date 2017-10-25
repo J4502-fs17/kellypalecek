@@ -78,15 +78,6 @@ img{
   align-content: center;
 }
 
-.text{
-  display: flex;
-  flex-direction: column;
-}
-
-.image{
-  display: flex;
-  justify-content: center;
-}
 
 
 #nav {
@@ -104,11 +95,9 @@ img{
       justify-content: flex-end;
 }
   .text{
-    justify-content: center;
     flex-grow: 2;
   }
   .image{
-    justify-content: center;
     flex-grow: 2;
   }
   }
