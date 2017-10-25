@@ -89,11 +89,11 @@ img{
 
   @media (min-width: 600px) {
   	#nav {
-  		flex-direction: row-reverse;
+  		flex-direction: row;
   		justify-content: center;
     }
     .container {
-      flex-direction: row;
+      flex-direction: row-reverse;
 }
   .text{
     justify-content: center;
