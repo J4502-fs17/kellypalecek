@@ -100,10 +100,10 @@ img{
 }
   .text{
     justify-content: center;
-    flex-grow: 20;
+    flex-grow: 2;
   }
   .image{
     justify-content: center;
-    flex-grow: 20;
+    flex-grow: 2;
   }
   }
