@@ -94,7 +94,6 @@ img{
     }
     .container {
       flex-direction: row-reverse;
-      justify-content: space-between;
 }
   .text{
     justify-content: center;
