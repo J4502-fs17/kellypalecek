@@ -11,16 +11,13 @@ p{
   line-height:1.5rem;
   text-align: center;
 }
-
 .italic{
   font-style:italic;
+  text-align:center;
 }
 h1 {
   font-family:"Quattrocento", "Times New Roman", serif;
   text-align: center;
-}
-
-h1{
   font-size:2.5rem;
   color:#5D2E46;
 }
@@ -34,6 +31,12 @@ h4{
 }
 body{
   background-color:#E8D6CB;
+}
+
+#nav{
+  display: flex;
+  flex-direction: column;
+  padding:0;
 }
 
 #nav li{
@@ -53,17 +56,11 @@ body{
   padding:4px;
   font-family:Helvetica, Arial, sans-serif;
 }
-
 #nav a:visited {
   color:#E8D6CB;
 }
-
 #nav a:hover, #nav a:active{
   background-color:#AD6A6C;
-}
-
-#nav{
-  padding:0;
 }
 
 img{
@@ -75,29 +72,54 @@ img{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
 }
 
-
-
-#nav {
-  	display: flex;
-  	flex-direction: column;
-  }
-
-  @media (min-width: 600px) {
+@media screen and (min-width: 400px) {
   	#nav {
-  		flex-direction: row;
+  		flex-direction: column;
   		justify-content: center;
+
     }
     .container {
       flex-direction: row-reverse;
       justify-content: flex-end;
 }
-  .text{
-    flex-grow: 2;
+}
+
+@media screen and (min-width: 800px) {
+  #nav {
+    flex-direction: row;
+    justify-content: center;
+}
+  .container {
+    display: grid;
+    grid-template-columns: 300px 2fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b"
+        "c c";
   }
   .image{
-    flex-grow: 2;
+    width: 100%;
+    grid-area: a;
+    justify-content: center;
+}
+  .text{
+    width: 100%;
+    grid-area: b;
   }
+  .joke{
+    width: 100%;
+    grid-area: c;
   }
+}
+@media screen and (min-width: 1200px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: 300px 2fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        ". a b b"
+        ". . . c";}
+      }
