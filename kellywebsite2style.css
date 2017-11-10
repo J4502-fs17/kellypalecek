@@ -40,7 +40,7 @@ nav li{
   width: 100%;
 }
 
-nav a:link{
+nav li a:link{
   display: block;
   color:#231B23;
   background-color:#D0ADA7;
@@ -81,8 +81,8 @@ img{
 }
 
 @media screen and (min-width: 400px) {
-  	nav {
-      display: none;
+  	nav ul{
+      display: flex;
   		flex-direction: column;
   		justify-content: center;
 
