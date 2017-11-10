@@ -34,11 +34,7 @@ body{
   background-color:#E8D6CB;
 }
 
-#nav ul{
-  display: none;
-  flex-direction: column;
-  padding:0;
-}
+
 #nav li{
   list-style-type:none;
   margin:0;
@@ -56,6 +52,13 @@ body{
   padding:4px;
   font-family:Helvetica, Arial, sans-serif;
 }
+
+#nav ul{
+  display: none;
+  flex-direction: column;
+  padding:0;
+}
+
 #nav a:visited {
   color:#E8D6CB;
 }
