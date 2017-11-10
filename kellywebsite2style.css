@@ -82,7 +82,7 @@ img{
 
 @media screen and (min-width: 400px) {
   	nav ul{
-      display: flex;
+    /*  display: flex;*/
   		flex-direction: column;
   		justify-content: center;
 
