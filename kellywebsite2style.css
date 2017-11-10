@@ -81,12 +81,12 @@ img{
 }
 
 @media screen and (min-width: 400px) {
-  	#nav {
-      display: flex;
+  	/*#nav {
+      display: none;
   		flex-direction: column;
   		justify-content: center;
 
-    }
+    }*/
     .container {
       flex-direction: row-reverse;
       justify-content: flex-end;
@@ -94,7 +94,7 @@ img{
 }
 
 @media screen and (min-width: 800px) {
-  #nav {
+#nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
