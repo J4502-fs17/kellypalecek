@@ -33,14 +33,14 @@ h4{
 body{
   background-color:#E8D6CB;
 }
-#nav li{
+nav li{
   list-style-type:none;
   margin:0;
   padding:0;
   width: 100%;
 }
 
-#nav a:link{
+nav a:link{
   display: block;
   color:#231B23;
   background-color:#D0ADA7;
@@ -51,16 +51,16 @@ body{
   font-family:Helvetica, Arial, sans-serif;
 }
 
-#nav ul{
+nav ul{
   display: none;
   flex-direction: column;
   padding:0;
 }
 
-#nav a:visited {
+nav a:visited {
   color:#E8D6CB;
 }
-#nav a:hover, nav a:active{
+nav a:hover, nav a:active{
   background-color:#AD6A6C;
 }
 
@@ -94,7 +94,7 @@ img{
 }
 
 @media screen and (min-width: 800px) {
-#nav {
+nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
