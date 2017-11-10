@@ -33,19 +33,19 @@ body{
   background-color:#E8D6CB;
 }
 
-.nav ul{
+#nav ul{
   display: none;
   flex-direction: column;
   padding:0;
 }
-.nav li{
+#nav li{
   list-style-type:none;
   margin:0;
   padding:0;
-  width: 25%;
+  width: 100%;
 }
 
-.nav a:link{
+#nav a:link{
   display: block;
   color:#231B23;
   background-color:#D0ADA7;
@@ -55,10 +55,10 @@ body{
   padding:4px;
   font-family:Helvetica, Arial, sans-serif;
 }
-.nav a:visited {
+#nav a:visited {
   color:#E8D6CB;
 }
-.nav a:hover, nav a:active{
+#nav a:hover, nav a:active{
   background-color:#AD6A6C;
 }
 
@@ -74,7 +74,7 @@ img{
 }
 
 @media screen and (min-width: 400px) {
-  	.nav {
+  	#nav {
       display: flex;
   		flex-direction: column;
   		justify-content: center;
@@ -87,7 +87,7 @@ img{
 }
 
 @media screen and (min-width: 800px) {
-  .nav {
+  #nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
